@@ -11,7 +11,7 @@ This uses two free, open-source apps:
 
 - A Mac with Apple Silicon (M1 or newer). Intel Macs aren't supported.
 - macOS 15 or newer.
-- Free disk space for the AI model: about 18 GB on Macs with 32 GB or more of memory, and less on smaller Macs.
+- Free disk space for the AI model: about 14 GB on Macs with 32 GB or more of memory, and less on smaller Macs.
 
 ## Install
 
@@ -29,7 +29,7 @@ The script:
 3. Downloads a summary model sized for your Mac's memory:
    | Memory | Model |
    | --- | --- |
-   | 32 GB or more | `qwen3.8:27b` |
+   | 32 GB or more | `gpt-oss:20b` |
    | 16–31 GB | `gemma4:12b` |
    | Less than 16 GB | `granite4.2:3b` |
 4. Opens anarlog once for its welcome screens, then sets it to transcribe and summarize on your Mac. It backs up anarlog's settings first.

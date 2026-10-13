@@ -49,7 +49,7 @@ choose_model() {
   if [[ -n "${MODEL:-}" ]]; then
     info "Using model from MODEL: $MODEL"
   elif (( RAM_GB >= 32 )); then
-    MODEL="qwen3.8:27b"
+    MODEL="gpt-oss:20b"
   elif (( RAM_GB >= 16 )); then
     MODEL="gemma4:12b"
   else
